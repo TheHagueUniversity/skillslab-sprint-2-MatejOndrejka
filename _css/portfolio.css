@@ -1,3 +1,6 @@
+/* REVIEW: try to get all styling in one CSS document, now you're repeating to much.
+It's better to have one big CSS file which lives in the browser's cache, than
+have to load multiple CSS files each time */
 .menu{
 background-color: transparent;
 height: 70px;
