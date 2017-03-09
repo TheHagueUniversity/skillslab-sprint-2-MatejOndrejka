@@ -1,6 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    margin: 0px 0px 0px 0px;    
+}
+
+/*---Header---*/
+
+header{
+    background-image: url("../_images/WebPics/ProSession photoshooting - Razsochy.jpg") ;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: fixed;
+    margin-bottom: 50px;
+    margin-top: -30px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
 .menu{
-background-color: transparent;
-height: 70px;
+    background-color: transparent;
+    height: 70px;
+    margin-top: 30px;
+
 }
 .primary_menu{
 display: block;
@@ -16,4 +39,85 @@ text-align: center;
 .primary_menu ul li{
     display: inline-block;
     margin: 20px 30px;
-}​
+}
+
+a:hover{
+    color:#2d2e72;
+}
+.active {
+    color: #2d2e72;
+}
+a{
+    font-size: 25px;
+    color: coral;
+    font-family: 'Ubuntu', serif;
+
+}
+
+/*---Other stuff---*/
+
+#HPtext {
+    display: block;
+    margin:auto;
+    padding: 20px;
+    text-align: center;
+    width: 35%;
+    color: white;
+    background-color: rgba(255,0,0,0.5);
+    font-size: 30px;
+    font-family: 'Ubuntu', serif;
+}
+#subText{
+    display: block;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    width: 35%;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 50px;
+    font-family: 'Ubuntu', serif; 
+    
+}
+
+#registerBlock{
+    margin: auto;
+    text-align: center;
+}
+    
+
+h2{
+    text-align: center;
+    color: navy;
+    font-size: 90px;
+    margin: 5px;
+    font-family: 'Ubuntu', serif;
+}
+h3{
+    text-align: center;
+    letter-spacing: 1%;
+    font-size: 30px;
+    margin: 0px;
+    font-family: 'Ubuntu', serif;
+}
+
+#register{
+    font-size: 50px;
+    font-family: 'Ubuntu', serif;
+    width: 100%;
+    
+}
+
+
+/*---Start Parallax---*/
+.parallax{
+    background: url(..//_images/WebPics/2016September10_10-47.JPG)fixed 0%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-top: 10px;
+    
+}
+/*---End Parallax---*/
+
+
+

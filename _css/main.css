@@ -1,33 +1,24 @@
-body{
-    margin: 0px 0px 0px 0px;
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
     
 }
+body{
+    margin: 0px 0px 0px 0px;    
+}
+
+/*---Header---*/
+
 header{
-    background-image: url("/_images/My pictures/Matej Ondrejka homepage.jpg");
+    background-image: url("../_images/WebPics/Matej Ondrejka homepage.jpg");
     height: 100vh;
     background-size: cover;
     background-color: lightblue;
     background-repeat: no-repeat;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     margin-top: 0px;
 }
-
-
-h1{
-    color: navy;
-    font-size: 90PX;
-    text-align:center;
-}
-
-h2{
-    margin-top: 1.3em;
-}
-
-h3{
-    font-size: 50px;
-    text-align: center;
-}
-  
 .menu{
 background-color: transparent;
 height: 70px;
@@ -46,34 +37,45 @@ text-align: center;
 .primary_menu ul li{
     display: inline-block;
     margin: 20px 30px;
-}​
-
-#subtext{
-    text-align: center;
-    margin: 100px 0px;
-    overflow-y: scroll;
-    
-}
-
-p{
-    max-width: 600px;
-    margin: 0 auto 20px;
-}
-
-a{
-    font-size: 25px;
-    color: white;
-    
 }
 
 a:hover{
     color:#2d2e72;
 }
-b, strong {
-    font-weight: 600;
-}
-
-
 .active {
-    color: coral;
+    color: #2d2e72;
 }
+a{
+    font-size: 25px;
+    color: coral;
+    font-family: 'Ubuntu', serif;
+    
+    
+}
+
+/*---OtherStuff---*/
+
+
+.HPtext {
+    color: white;
+    font-size: 700%;
+    margin-top: 150px;
+    font-family: 'Ubuntu', serif;
+    text-align: center;
+}
+
+.centered{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    
+
+}
+#subtext{
+    font-size: 150%;
+    font-family: 'Ubuntu', serif;
+
+}
+
+
