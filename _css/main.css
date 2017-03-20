@@ -11,7 +11,7 @@ body{
 /*---Header---*/
 
 header{
-    background-image: url("../_images/WebPics/Matej Ondrejka homepage.jpg");
+    background-image: url("../_images/WebPics/MatejOndrejkaHomepage.jpg");
     height: 100vh;
     background-size: cover;
     background-color: lightblue;
@@ -66,16 +66,16 @@ a{
 
 .centered{
     position: absolute;
-    bottom: 0;
+    bottom: 15%;
     text-align: center;
     width: 100%;
     
-
 }
-#subtext{
-    font-size: 150%;
-    font-family: 'Ubuntu', serif;
 
+#subtext{
+    font-size: 300%;
+    font-family: 'Ubuntu', serif;
+    
 }
 
 

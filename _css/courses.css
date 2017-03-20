@@ -10,7 +10,7 @@ body{
 /*---Header---*/
 
 header{
-    background-image: url("../_images/WebPics/ProSession photoshooting - Razsochy.jpg") ;
+    background-image: url("../_images/WebPics/ProSessionPhotoshooting.JPG") ;
     height: 100vh;
     background-size: cover;
     background-repeat: fixed;
@@ -111,7 +111,7 @@ h3{
 
 /*---Start Parallax---*/
 .parallax{
-    background: url(..//_images/WebPics/2016September10_10-47.JPG)fixed 0%;
+    background: url(..//_images/WebPics/StreetFromAbove.JPG)fixed 0%;
     padding-top: 10%;
     padding-bottom: 10%;
     margin-top: 10px;
