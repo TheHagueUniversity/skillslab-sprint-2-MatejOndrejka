@@ -9,15 +9,16 @@ body{
 
 /*---Header---*/
 
-
 .menu{
 background-color: transparent;
 height: 70px;
+width: 100%;
+
+
 }
 .primary_menu{
 display: block;
 margin: 0px auto;
-width: 980px;
 height: 25px;
 background-color: transparent;
 }

@@ -13,11 +13,12 @@ body{
 .menu{
 background-color: transparent;
 height: 70px;
+width: 100%;
+
 }
 .primary_menu{
 display: block;
 margin: 0px auto;
-width: 980px;
 height: 25px;
 background-color: transparent;
 }
@@ -124,11 +125,15 @@ h1{
     padding: 10px;
     background-color: white;
     border-radius: 25px;
-    border: 2px solid #000080;
-    
+    border: 2px solid #2d2e72;
     
 }
 
+#SubmitContact:hover{
+    color:white;
+    border: 2px solid #000080;
+    background-color: #000080;
+}
 
 
  

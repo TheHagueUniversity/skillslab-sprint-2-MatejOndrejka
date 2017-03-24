@@ -9,8 +9,12 @@ body{
 }
 
 /*---Header---*/
-
-header{
+header {
+        position: absolute;
+        z-index:1;
+    width: 100%;
+}
+main{
     background-image: url("../_images/WebPics/MatejOndrejkaHomepage.jpg");
     height: 100vh;
     background-size: cover;
@@ -18,21 +22,26 @@ header{
     background-repeat: no-repeat;
     margin-bottom: 0px;
     margin-top: 0px;
+    position: absolute;
 }
 .menu{
 background-color: transparent;
 height: 70px;
+text-align: center;
+    
+
 }
 .primary_menu{
-display: block;
-margin: 0px auto;
-width: 980px;
+display: block;   
 height: 25px;
+text-align: center; 
 background-color: transparent;
 }
 .primary_menu ul{
-list-style-type: none;
+list-style-type: none;    
 text-align: center;
+display: block;
+flex-flow: row wrap;
 }
 .primary_menu ul li{
     display: inline-block;
@@ -59,7 +68,7 @@ a{
 .HPtext {
     color: white;
     font-size: 700%;
-    margin-top: 150px;
+    padding-top: 20vh;
     font-family: 'Ubuntu', serif;
     text-align: center;
 }
